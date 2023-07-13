@@ -39,7 +39,7 @@ ncol(q1_2020)
 #The number of columns of each data frame is 12, except the q1_2020 df, which is 13. 
 
 #CLEANING THE DATA 
-#The column names for the all the dfs have to be changed to suite the q1_2020 df. They seem more consistent and readable
+#The column names for all the dfs have to be changed to suit the q1_2020 df. They seem more consistent and readable
 q4_2019 <- rename(q4_2019,
                   ride_id = trip_id,
                   rideable_type = bikeid,
